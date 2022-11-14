@@ -23,7 +23,7 @@ El objetivo principal de este proyecto es realizar un **proceso ETL**:
 
 **Caso práctico:**
 
-Realizar un proceso ETL sobre las péliculas del Universo Cinematográfico de Marvel (UCM).
+Realizar un proceso ETL sobre las películas del Universo Cinematográfico de Marvel (UCM).
 
    - Extraer un listado de todas las películas, una relación de actores que participan y personajes que representan,
 y un listado de comics para los personajes principales.
@@ -38,7 +38,8 @@ y un listado de comics para los personajes principales.
 
  
 - Descarga de un listado de todas las películas del UCM, con información asociada a cada película. (fase, fecha de estreno, puntuaciones, datos sobre recaudación).
-\nEsta infromación se extrajo en formato csv del repostirotio de Dataset de https://www.kaggle.com/
+
+Esta infromación se extrajo en formato csv del repostirotio de Dataset de https://www.kaggle.com/
 
 
 - Extracción referente a cada película de la web IMDB (https://www.imdb.com/) mediante técnica de scrapeo con el módulo selenium.
@@ -87,15 +88,15 @@ Limpiaza y manejo de los datos:
 ![er](https://github.com/AaronNebreda/w4-ETL-Project/blob/main/img/diagrama_EER.png)
 
    
-### Recursos.
+### 📄 Recursos.
 
-- scrap_imdb.ipynb  →  scraping web imdb
+- scrap_imdb.ipynb   →  scraping web imdb
 
-- api_marvel.ipynb  →  navegación API marvel
+- api_marvel.ipynb   →  navegación API marvel
 
-- clean.ipynb  →  limpieza de datos
+- clean.ipynb        →  limpieza de datos
 
-- base_datos.ipynb  →  exportación de las tablas a la base de datos
+- base_datos.ipynb   →  exportación de las tablas a la base de datos
 
 - bd_relaciones.sql  →  generación de las relaciones entre tablas
    
