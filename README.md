@@ -79,9 +79,9 @@ Limpiaza y manejo de los datos:
 
 - Consideraciones para crear la base de datos:
 
-   Se dividió en dos tablas actores y personajes, ya que hay personajes que han sido representados por diferentes actores.
+   - Se dividió en dos tablas actores y personajes, ya que hay personajes que han sido representados por diferentes actores.
    
-   Se creo una tabla intermedia para relacionar películas y actores, ya que se establecía como relación n:m
+   - Se creo una tabla intermedia para relacionar películas y actores, ya que se establecía como relación n:m
 
 - Aquí se muesta el diagrama E-R de la base de datos:
 
